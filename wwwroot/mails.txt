@@ -1,0 +1,6 @@
+ name: Umar Farooq  city: Islamabad email: umar.mcs@gmail.com text: Hi i want to use Edgnome for our school ;
+ name: 2  city: 2 email: 2 text:  ;
+ name: Ivan  city: Rwp email: ivan@gmail.com text: I am interested in your product ;
+ name: test  city: rawalpindi email: ivan@gg.com text: test request by ivan ;
+ name: Muhammad Sohaib  city: Islamabad email: sohaib472@yahoo.com text: Hi umar moto bohat bhook lagi ha :P ;
+ name: ivan  city: islbd email: ivan@123.com text: hello ;
