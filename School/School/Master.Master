@@ -1,0 +1,219 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="School.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>School</title>
+    <script src="js/Navigation.js" type="text/javascript"></script>
+    <link rel="icon" type="image/gif" href="images/gnome.png" />
+    <link href="css/zmain.css" rel="stylesheet" type="text/css" />
+   <link href="css/form.css" media="all" rel="stylesheet" type="text/css" />
+   <script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <div id="Div1">
+                    <header id="branding_header" class="split_pane">
+                        <ul id="tabs" class="ember-view column">
+                            <li id="ember6899" class="ember-view tab add"><span class="icon"></span><span><a class="i18n-48 ember-view" style="text-decoration: none; color: white;" href="#">Teachers</a></span></li>
+                            <li id="Li1" class="ember-view tab add"><span class="icon"></span><span><a class="i18n-48 ember-view" style="text-decoration: none; color: white;"  href="#">Students</a></span></li>
+                           
+                            <asp:Label ID="Label3" style="color: White; font-size: small; margin-right: 0cm; text-align: right; position: relative; right: -73em;" runat="server"
+                                    Font-Size="Small" ForeColor="White"></asp:Label>
+                        </ul>
+
+                        <div id="user_options" class="column">
+                            <div id="face_box" class="ember-view dropdown pull-right">
+                            
+                                <a id="face" class="dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                                    <asp:ImageButton ID="ImageButton1"  runat="server" style="margin-top: -6px ; margin-left:-6px:"
+                                    ImageUrl="~/images/gnome.png" onclick="ImageButton1_Click" />
+                                    <b class="caret"></b>
+                                </a>
+                            </div>
+
+
+                            <!-- <div id="ember5467" class="ember-view pull-right reload_apps" style="display:none;"> -->
+
+                        </div>
+
+                        <div class="timer_slider_container">
+                            <div class="timer_slider" style="margin-top: 1.4cm">
+                                <asp:Label ID="Label1" style="margin-left: 7.3cm" runat="server" 
+                                    Font-Size="Small"></asp:Label>
+                                <asp:Label ID="Label2" style="margin-left: 17.3cm" runat="server" Text="" Font-Size="Small"></asp:Label>
+                            </div>
+                           
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+            <div class="arrow"></div>
+
+            <div class="clear"></div>
+           
+            <nav id="main_navigation" class="ember-view dashboard">
+             
+                <div class="divicon">
+              <a href="Admin.aspx" class="twitterbird" title="Repoting"></a>
+
+              </div>
+               <div class="divicon2">
+              <a href="#" onclick="toggle_forms('search');" class="twitterbird2" title="Search"></a>
+
+              </div>
+               <div class="divicon3 ">
+              <a href="#"  onclick="toggle_forms('settings');" class="twitterbird3" title="Settings"></a>
+
+              </div>
+
+
+            </nav>
+
+            <div id="main_panes"  class="ember-view" runat="server">
+                <section id="ember4187" class="ember-view main_panes split_pane filters">
+                    <header>
+                    
+                        <div class="pane left" data-bindattr-235="235">
+                            <h1>
+                                <span id="i18n-197"></span>
+                            </h1>
+                        </div>
+                        
+                        <div id="Div2" class="pane right" runat="server">
+                           <asp:ContentPlaceHolder ID="actions" runat="server"> </asp:ContentPlaceHolder>
+                        </div>
+                        
+                    </header>
+
+                    <div id="Div3" class="pane left section" runat="server">
+                         <div  class="nav-links" style="margin: 10px 25px !important; border: 1px solid rgb(201, 201, 201) !important; border-radius: 10px !important;">
+       
+
+        <ul id="ember17572" class="ember-view filters" style="">
+            <li id="ember17608" class="ember-view selected in-focus" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+                <a class="nav_mainMenu" href="#" onclick="toggle_menu('Branch'); toggle_forms('ShowAdmins');return true;">Branch Management</a>
+            </li>
+       </ul>
+                
+                    <div  id='Branch' class="nav_submenu"  style="display:none" >
+                        <ul id="ember7657" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="ember7696" class="ember-view"><a  href="#" onclick="toggle_forms('foo');">Add/Delete a Branch</a> </li>
+                            <li id="ember7706" class="ember-view"><a href="#" onclick="toggle_forms('admin');">Assign Admins</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+          
+             <ul id="Ul2" class="ember-view filters" style="">
+        <li id="Li2" class="ember-view selected in-focus">
+                 <a  class="nav_mainMenu" href="#" onclick="toggle_menu('Class');">Class Management</a>
+            </li>
+            </ul>
+              <div  id='Class' class="nav_submenu" style="display:none" >
+                        <ul id="Ul1" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="Li30" class="ember-view"><a  href="#" onclick="toggle_forms('AddClasses');">Add Classes</a> </li>
+                            <li id="Li25" class="ember-view"><a  href="#" onclick="toggle_forms('AddSections');">Add Sections</a> </li>
+                            <li id="Li26" class="ember-view"><a  href="#" onclick="toggle_forms('ClassAndSection');">Add/Delete a Class/Section</a> </li>
+                            <li id="Li9" class="ember-view"><a  href="#" onclick="toggle_forms('Courses');">Add Class Courses</a>
+                            </li>
+                            <li id="Li10" class="ember-view"><a href="#">Add School Calender</a>
+                            </li>
+                           
+                            
+                        </ul>
+                    </div>
+                     
+          <ul id="Ul3" class="ember-view filters" style="">
+        <li id="Li3" class="ember-view selected in-focus">
+                 <a  class="nav_mainMenu" href="#" onclick="toggle_menu('Teacher'); toggle_forms('ShowTeachers');return true;">Teacher Management</a>
+            </li>
+            </ul>
+              <div  id='Teacher' class="nav_submenu"  style="display:none" >
+                        <ul id="Ul4" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="Li4" class="ember-view"><a  href="#" onclick="toggle_forms('TeacherSection');">Add/Delete Teachers</a> </li>
+                            <li id="Li14" class="ember-view"><a  href="#" onclick="toggle_forms('TAttendance');">Attendance</a>
+                            </li>
+                            <li id="Li15" class="ember-view"><a  href="#" onclick="toggle_forms('AssignCourses');">Assign Courses and classes</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul id="Ul5" class="ember-view filters" style="">
+        <li id="Li19" class="ember-view selected in-focus">
+                 <a  class="nav_mainMenu" href="#" onclick="toggle_menu('Student'); toggle_forms('ShowStudents');return true;">Student Management</a>
+            </li>
+            </ul>
+              <div  id='Student' class="nav_submenu"  style="display:none" >
+                        <ul id="Ul6" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="Li20" class="ember-view"><a  href="#" onclick="toggle_forms('StudentSection');">Add/Delete Students</a> </li>
+                            <li id="Li31" class="ember-view"><a  href="#" onclick="toggle_forms('AssignStudentClass');">Assign Class & Section</a> </li>
+                            <li id="Li21" class="ember-view"><a  href="#" onclick="toggle_forms('AssignStudentClass');">Manage Promotions</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <ul id="Ul11" class="ember-view filters" style="">
+        <li id="Li27" class="ember-view selected in-focus">
+                 <a  class="nav_mainMenu" href="#" onclick="toggle_menu('Exam');">Exam Management</a>
+            </li>
+            </ul>
+              <div  id='Exam' class="nav_submenu"  style="display:none" >
+                        <ul id="Ul12" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="Li28" class="ember-view"><a  href="#" onclick="toggle_forms('ExamType');">Add Exam Type</a> </li>
+                            <li id="Li29" class="ember-view"><a  href="#" onclick="toggle_forms('ExamDate');">Exam Schedule</a>
+                            </li>
+                        </ul>
+                    </div>
+   
+      <ul id="Ul7" class="ember-view filters" style="">
+        <li id="Li6" class="ember-view selected in-focus">
+                 <a  class="nav_mainMenu" href="#" onclick="toggle_menu('Ticket');">Ticket Management</a>
+            </li>
+            </ul>
+              <div  id='Ticket' class="nav_submenu"  style="display:none" >
+                        <ul id="Ul8" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="Li7" class="ember-view"><a  href="#" onclick="toggle_forms('NewTicket');">New Ticket</a> </li>
+                            <li id="Li8" class="ember-view"><a  href="#" onclick="toggle_forms('PendingTickets');">Pending</a>
+                            </li>
+                            <li id="Li13" class="ember-view"><a  href="#" onclick="toggle_forms('Announcemnt');">Announcements</a>
+                            </li>
+                            <li id="Li17" class="ember-view"><a href="#" onclick="toggle_forms('SMS');">SMS</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+                     <ul id="Ul9" class="ember-view filters" style="">
+        <li id="Li18" class="ember-view selected in-focus" style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+                 <a  class="nav_mainMenu" href="#" onclick="toggle_menu('Survey');">Survey</a>
+            </li>
+            </ul>
+              <div id='Survey' class="nav_submenu"  style="display:none" >
+                        <ul id="Ul10" class="ember-view nav nav-pills nav-stacked type">
+                            <li id="Li23" class="ember-view"><a  href="#" onclick="toggle_forms('NewSurvey');">New Survey</a> </li>
+                            <li id="Li24" class="ember-view"><a  href="#" onclick="toggle_forms('ShowSurvey');">Surveys</a> </li>
+                            
+                        </ul>
+                    </div>
+     </div>
+                    </div>
+
+                    <div id="Div4" class="pane right section" runat="server">
+                        <asp:ContentPlaceHolder ID="forms" runat="server">
+                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                                ConnectionString="<%$ ConnectionStrings:school %>" 
+                                SelectCommand="SELECT [campusId] FROM [Campus]"></asp:SqlDataSource>
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

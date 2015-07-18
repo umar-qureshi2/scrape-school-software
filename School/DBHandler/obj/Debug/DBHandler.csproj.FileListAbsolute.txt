@@ -1,0 +1,14 @@
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\bin\Debug\DBHandler.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\bin\Debug\DBHandler.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\bin\Debug\Entities.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\bin\Debug\Entities.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\obj\Debug\DBHandler.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\DBHandler\obj\Debug\DBHandler.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\bin\Debug\DBHandler.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\bin\Debug\DBHandler.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\bin\Debug\Entities.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\bin\Debug\Entities.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\obj\Debug\DBHandler.csprojResolveAssemblyReference.cache
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\obj\Debug\DBHandler.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\DBHandler\obj\Debug\DBHandler.pdb

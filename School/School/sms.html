@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link href="css/form.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function submitForm() {
+            document.hidden.msg.value = document.message.msg.value;
+            document.hidden.phone.value = document.message.phone.value;
+            document.hidden.submit();
+            document.getElementById('lbltipAddedComment').innerHTML = 'your message has been sent!';
+        }
+    </script>
+</head>
+<body>
+    
+    <form name="hidden" action="http://182.50.141.97:50000/index.php" method="post" hidden="hidden">
+        <input  name="msg" />
+        <input name="phone" />
+        
+    </form>
+
+<form name="message" action="" >
+<div id="SMS" style="display:block" class="pure-form pure-form-stacked form1 ">
+         <div class="pure-g-r">
+            <div class="pure-u-1-1">
+        <label for="last-name">Message</label>
+        <input id="message" name="msg" type="text" style="width: 6cm" />
+        </div>
+        <div class="pure-u-1-1">
+        <label for="last-name">Phone Number</label>
+        <input id="Phone" name="phone" type="text" />
+        </div>
+        <div class="pure-u-1-1">
+        <label id="lbltipAddedComment" for="last-name"></label>
+        </div>
+        </div>
+        <br />
+        <button type="button" class="pure-button pure-button-primary" onclick="submitForm();">Send</button>
+     </div>
+    </form>
+</body>
+</html>

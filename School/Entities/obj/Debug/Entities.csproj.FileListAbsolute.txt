@@ -1,0 +1,9 @@
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\Entities\bin\Debug\Entities.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\Entities\bin\Debug\Entities.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\Entities\obj\Debug\Entities.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\Entities\obj\Debug\Entities.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\Entities\bin\Debug\Entities.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\Entities\bin\Debug\Entities.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\Entities\obj\Debug\Entities.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\Entities\obj\Debug\Entities.pdb

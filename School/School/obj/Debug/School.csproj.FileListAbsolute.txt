@@ -1,0 +1,69 @@
+c:\users\roomi\documents\visual studio 2010\Projects\School\School\bin\School.dll
+c:\users\roomi\documents\visual studio 2010\Projects\School\School\bin\School.pdb
+c:\users\roomi\documents\visual studio 2010\Projects\School\School\obj\Debug\ResolveAssemblyReference.cache
+c:\users\roomi\documents\visual studio 2010\Projects\School\School\obj\Debug\School.dll
+c:\users\roomi\documents\visual studio 2010\Projects\School\School\obj\Debug\School.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\DBHandler.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\Entities.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\DBHandler.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\Entities.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\HtmlAgilityPack.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\AjaxMin.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\AjaxControlToolkit.pdb
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\RooMi\Documents\Visual Studio 2010\Projects\School\School\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\School.dll
+E:\Projects\School\School\bin\School.pdb
+E:\Projects\School\School\bin\DBHandler.dll
+E:\Projects\School\School\bin\Entities.dll
+E:\Projects\School\School\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Projects\School\School\bin\HtmlAgilityPack.dll
+E:\Projects\School\School\bin\AjaxMin.dll
+E:\Projects\School\School\bin\DBHandler.pdb
+E:\Projects\School\School\bin\Entities.pdb
+E:\Projects\School\School\bin\AjaxControlToolkit.pdb
+E:\Projects\School\School\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Projects\School\School\bin\ar\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\cs\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\de\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\es\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\fr\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\he\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\hi\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\it\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\ja\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\ko\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\nl\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\pt\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\ru\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Projects\School\School\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\School\School\obj\Debug\School.dll
+E:\Projects\School\School\obj\Debug\School.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\bin\School.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\bin\School.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\bin\DBHandler.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\bin\Entities.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\bin\DBHandler.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\bin\Entities.pdb
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\obj\Debug\School.dll
+F:\Users\microsoft\Desktop\semi desktop\server pul\School - Copy - Copy\School\obj\Debug\School.pdb
